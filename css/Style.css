@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+}
+.conteinertotal{
+    width: 100%;
+    height: 1000px;
+}
+.conteiner{
+    padding-top: 20px;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height: 380px;
+    padding-bottom: 20px;
+}
+
+.conteinerapresentacao{
+    padding-top: 10px;
+    margin: auto;
+    background-color: white;
+    width: 100%;
+    height:  1400px;
+    padding-bottom: 70px;
+}
+
+.apresentacao{
+    margin-left: 300px;
+    text-align: justify;
+    margin-right: 300px;
+    font-size: 20px;
+    font-family: Garet;
+}
+
+ul{
+    margin-top: 10px;
+}
+
+
+@font-face {
+    font-family: Garet;
+    src: url(../font/Garet-Book.ttf);
+}
+
+header{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    padding-top: 20px;
+    margin-bottom: 25px;
+    background-color: rgba(0, 0, 0, 0.397);
+    height: 110px;
+}
+header>div{    
+    padding-top: 15px;
+    font-size: 20px;
+    width: 50%;
+    color: rgb(255, 255, 255);
+    margin-left: 50px;
+    text-align: justify;
+    font-family: Garet;
+}
+a>img{
+    width: 150px;
+    height: 150px;
+}
+header>a{
+    width: 150px;
+    height: 150px;
+}
+
+.historia{
+    display: flex;
+}
+.imghistoria{
+    margin-left: 80px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+.imgtexto{
+    margin-left: 110px;
+    font-family: Garet;
+}
+.texthistoria{
+    margin-top: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: justify;
+}
+
+section>p{
+    font-size: 25px;
+    font-family: Garet;
+}
+
+.player-video{
+    margin: auto;
+    width: 100%;
+    height: 720px;
+    background-color: rgb(5, 0, 0);
+    margin-bottom: 20px;
+}
+
+div>video{
+    margin-left: 15%;
+}
+
+.wrapper{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  nav>a{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  nav>a span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  nav>a:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ffffff;
+    transition: all .35s;
+  }
+  
+  nav>a:hover{
+    color: #000000;
+  }
+  
+  nav>a:hover:after{
+    width: 100%;
+  }
+  
+
+nav{
+    padding-top: 5px;
+    background-color: rgb(0, 0, 7);
+    height: 50px;
+    display: flex;    
+    text-align: justify;
+    justify-content: space-around;;
+}
+nav>p{
+    color: white;
+    margin-top: 5px;
+}
+
+
+footer{    
+    height: 100px;
+    display: flex;
+    color: white;
+}
+
+footer>p{
+    margin-left: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
